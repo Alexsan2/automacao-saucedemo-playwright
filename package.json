@@ -1,0 +1,24 @@
+{
+  "name": "automacao-saucedemo-playwright",
+  "version": "1.0.0",
+  "description": "Framework de automação de testes utilizando Selenium WebDriver e Page Object Model (POM)",
+  "main": "teste-profissional.js",
+  "scripts": {
+    "test": "node teste-profissional.js && node teste-erro-login.js",
+    "test:sucesso": "node teste-profissional.js",
+    "test:erro": "node teste-erro-login.js"
+  },
+  "keywords": [
+    "selenium",
+    "webdriver",
+    "qa",
+    "automation",
+    "saucedemo",
+    "pom"
+  ],
+  "author": "Alex Sandro",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^4.29.0"
+  }
+}

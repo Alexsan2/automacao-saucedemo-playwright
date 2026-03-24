@@ -1,21 +1,20 @@
-# 🛒 Automação de Testes - SauceDemo com Playwright
+# 🚀 Automação de Testes - SauceDemo (Selenium + POM)
 
-Este projeto demonstra a automação de fluxos críticos de e-commerce utilizando **Python** e **Playwright**. O objetivo é validar tanto o "Caminho Feliz" quanto o tratamento de erros do sistema.
-
-## 🚀 Funcionalidades Testadas
-- **Login com Sucesso:** Valida a entrada de usuários permitidos.
-- **Adição ao Carrinho:** Interação com elementos dinâmicos e validação de badge do carrinho.
-- **Login Negativo (Bloqueado):** Garante que usuários restritos recebam a mensagem de erro correta.
-- **Evidências Automáticas:** Geração de screenshots para auditoria de falhas e sucessos.
+Projeto de automação profissional desenvolvido para validar fluxos críticos do e-commerce **SauceDemo**, utilizando **Node.js**, **Selenium WebDriver** e o padrão de projeto **Page Object Model (POM)**.
 
 ## 🛠️ Tecnologias Utilizadas
-- **Linguagem:** Python 3.14+
-- **Framework de Teste:** Pytest
-- **Ferramenta de Automação:** Playwright
-- **Relatórios:** Screenshots nativos do Playwright
+* **Node.js** (Ambiente de execução)
+* **Selenium WebDriver** (Automação do navegador)
+* **JavaScript** (Lógica dos testes)
+* **POM** (Arquitetura para facilitar a manutenção)
 
-## 📦 Como Executar o Projeto
+## 📋 Cenários de Teste
+1. **Fluxo de Sucesso:** Login, adição de produto ao carrinho e validação do item.
+2. **Fluxo de Erro:** Tentativa de login com usuário bloqueado e validação da mensagem de erro.
 
-1. **Clone o repositório:**
+## 🚀 Como Executar
+1. Instale as dependências:
    ```bash
-   git clone [https://github.com/Alexsan2/automacao-saucedemo-playwright.git](https://github.com/Alexsan2/automacao-saucedemo-playwright.git)
+   npm install
+   npm test
+   
