@@ -19,3 +19,4 @@ Projeto de automação profissional desenvolvido para validar fluxos críticos d
    npm test
    # automacao-saucedemo-selenium
 # automacao-saucedemo-selenium
+# automacao-saucedemo-alex
