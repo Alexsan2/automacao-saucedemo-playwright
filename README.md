@@ -17,4 +17,4 @@ Projeto de automação profissional desenvolvido para validar fluxos críticos d
    ```bash
    npm install
    npm test
-   
+   # automacao-saucedemo-selenium
