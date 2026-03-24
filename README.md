@@ -20,3 +20,4 @@ Projeto de automação profissional desenvolvido para validar fluxos críticos d
    # automacao-saucedemo-selenium
 # automacao-saucedemo-selenium
 # automacao-saucedemo-alex
+# automacao-saucedemo-selenium
